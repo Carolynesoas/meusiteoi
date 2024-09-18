@@ -11,12 +11,7 @@
 	/* Inclui o preenchimento e a borda na largura e altura. */
 	box-sizing: border-box;
 }
-table {
-	background: #115b25b3;
-	border-radius: 10px;
-	padding: 10px;
-	margin: 0 auto;
-}
+
 body {
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
@@ -141,7 +136,13 @@ footer {
 	/* Altura do elemento. */
 	height: 100px;
 }
-
+table {
+	
+	background: #115b25b3;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 auto;
+}
 a {
 	/* Remove a decoração padrão do elemento. */
 	text-decoration: none;
